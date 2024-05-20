@@ -6,9 +6,9 @@
 <?php
 session_start();
 	if(isset($_POST['ac'])){
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
+		$servername = "us-cluster-east-01.k8s.cleardb.net";
+		$username = "bc8d73174f440f";
+		$password = "7215f4fc";
 
 		$conn = new mysqli($servername, $username, $password);
 
