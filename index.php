@@ -16,7 +16,7 @@ session_start();
 		    die("Connection failed: " . $conn->connect_error);
 		} 
 
-		$sql = "USE bookstore";
+		$sql = "heroku_396a2b66c8693eb";
 		$conn->query($sql);
 
 		$sql = "SELECT * FROM book WHERE BookID = '".$_POST['ac']."'";
